@@ -1,0 +1,17 @@
+------ create a table user
+username and password,status and role(user,admin)
+accept user name and passoword 
+validate the user ------ LoginService and LoginDao
+
+user is is valid only if the username and password is correct and the status is active
+if the role is admin
+1. add product
+2. delete product
+3. modify product price
+4. display by id
+5. display all
+
+if role is not admin
+again ask for username and password
+if user enter wrong user name and password 3 times then block the user, allow 3 attempts only for active user
+show the message that a/c is blocked and contact admin and stop the code
