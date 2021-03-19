@@ -1,0 +1,27 @@
+<html> 
+  
+<head> 
+    <title> 
+        print current day and time 
+    </title> 
+</head> 
+  
+<body> 
+    <script> 
+        var myDate = new Date(); 
+        var myDay = myDate.getDay(); 
+        
+         
+        var weekday = ['Sunday', 'Monday', 'Tuesday', 
+            'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+        ]; 
+        document.write("Today is : " + weekday[myDay]); 
+        document.write("<br/>"); 
+         document.write("Welcome"); 
+		  document.write("<br/>");
+           document.write("Good Afernoon"); 		  
+ 
+    </script> 
+</body> 
+  
+</html> 
